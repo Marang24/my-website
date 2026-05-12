@@ -34,14 +34,14 @@ main {
 }
 
 main img {
-  max-width: 100%;
+  max-width:fit-content;
   height: auto;
   display: block;
   margin: 20px 0;
 }
 
 footer {
-  background-color: #333;
+  background-color: lightblue;
   color: white;
   text-align: center;
   padding: 10px;
@@ -69,6 +69,6 @@ img {
 }
 
 main a[href^="malito:"] {
-  color: #ff5722;
+  color: #ff2222;
   font-weight: bold;
 }
